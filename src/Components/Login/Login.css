@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+h1{
+  font-family: 'Grand Hotel', cursive;
+  font-weight: 400;
+  font-size: 5rem;
+  font-style: italic;
+}
+.signupcontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  width: 40vw;
+  margin: 10% auto 0;
+  padding:1rem;
+  border-radius: 1rem;
+  background: radial-gradient(#fefefe, #E3F4F4);
+}
+.signupcontent > div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 3rem;
+}
+.signupcontent label {
+    flex: 1;
+    max-width: 30%;
+}
+.signupcontent input {
+    flex: 1;
+  border: none;
+  outline: 0;
+  background-color: #7d7d7d1e ;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  max-width: 50%;
+}
+.signupbtn{
+    padding: 1rem;
+  background-color: #00acb5b5;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1.6rem;
+  transition: all 0.3S;
+}
+.Toastify__toast-body {
+  font-size: 15px;
+}
+
+.cursor{
+  cursor: pointer;
+}
